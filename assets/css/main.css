@@ -2236,6 +2236,17 @@ input, select, textarea {
 				padding: 0;
 				text-align: center;
 			}
+			.main .container{
+				display: flex;
+			}
+			.main .container h1{
+				text-align: center;
+			}
+			.profilePic{
+				width: 30%;
+				align-self: flex-start;
+				border-radius: 5pt;
+			}
 
 		.main > .content {
 			padding: 6em 0 6em 0;
@@ -2250,11 +2261,12 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				/* background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c); */
+				background: url("../../images/IMG_3622.jpg") no-repeat center, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background: url("images/bgtr.svg") top right no-repeat, url("../../images/IMG_3622.jpg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
 			}
 
 			.main > .content.style3 {

@@ -2173,7 +2173,7 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			/* display: none; */
+			display:inline;
 		}
 
 		.icon.solid:before {
@@ -2183,7 +2183,9 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+		i {
+			color:#000;
+		}
 /* Header */
 
 	#header {

@@ -354,7 +354,7 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 33.33333%;
 		}
 
 		.row > .off-3 {
@@ -2195,6 +2195,7 @@ input, select, textarea {
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
+		/* background-attachment: fixed; */
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: rgb(2, 2, 2);
@@ -2255,6 +2256,10 @@ input, select, textarea {
 				width: 30%;
 				align-self: flex-start;
 				border-radius: 5pt;
+			}
+			.aboutMe{
+				margin-left: 2em;
+				/* width: 70%; */
 			}
 
 		.main > .content {

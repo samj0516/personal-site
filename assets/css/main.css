@@ -2529,3 +2529,6 @@ input, select, textarea {
 				}
 
 	}
+#second .container h2{
+	font-size: 1.5em;
+}
